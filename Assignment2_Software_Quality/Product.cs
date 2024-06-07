@@ -2,9 +2,7 @@
 
 namespace Assignment2_Software_Quality
 {
-    namespace Groccery
-    {
-        public class Product
+     public class Product
         {
             public int ProductID { get; set; }
             public string ProductName { get; set; }
@@ -19,7 +17,7 @@ namespace Assignment2_Software_Quality
                 Stock = stock;
             }
 
-            public void DecreaseStockCount(int stock)
+            public void IncreaseStockCount(int stock)
             {
                 if (stock > 0)
                 {
@@ -36,6 +34,4 @@ namespace Assignment2_Software_Quality
             }
            
         }
-    }
-
 }

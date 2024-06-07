@@ -5,6 +5,13 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2_Software_Quality", "Assignment2_Software_Quality\Assignment2_Software_Quality.csproj", "{618A318F-418E-468D-97BA-AAFEF0E646A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8E65BED-4019-4F6F-A395-47EC5C7B6625}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_Assignment2_Software_Quality", "Test_Assignment2_Software_Quality\Test_Assignment2_Software_Quality.csproj", "{DE32BA67-9EC7-4F44-8C82-7E16567D7F04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{618A318F-418E-468D-97BA-AAFEF0E646A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{618A318F-418E-468D-97BA-AAFEF0E646A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{618A318F-418E-468D-97BA-AAFEF0E646A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE32BA67-9EC7-4F44-8C82-7E16567D7F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE32BA67-9EC7-4F44-8C82-7E16567D7F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE32BA67-9EC7-4F44-8C82-7E16567D7F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE32BA67-9EC7-4F44-8C82-7E16567D7F04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
